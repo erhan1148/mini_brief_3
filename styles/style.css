@@ -65,7 +65,7 @@ h3{
     background-color: #CD6889;
     color: white;
     font-style: italic;
-    font-size: 30px;
+    font-size: 25px;
     align-items: center;
     margin-top: 50px;
     height: 120px;
@@ -77,7 +77,7 @@ h3{
     
 }
 .case2{
-    background-color: #A1C740 ;
+    background-color:  #B67332;
     color: black ;
     margin-top: 50px;
     text-align: justify;
@@ -87,10 +87,10 @@ h3{
 }
 
 .legende2 {
-    background-color:#8BD59E ; 
+    background-color: #D6955B ; 
     color: black;
     font-style: italic;
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
     margin-top: 50px;
     height: 100px;
@@ -114,7 +114,7 @@ h3{
     background-color: #B8CBD0;
     color: white;
     font-style: italic;
-    font-size: 35px;
+    font-size: 30px;
     align-items: center;
     margin-top: 50px;
     height: 100px;
@@ -137,7 +137,7 @@ h3{
     background-color: #E8D5CC;
     color: black;
     font-style: italic;
-    font-size: 35px;
+    font-size: 30px;
     align-items: center;
     margin-top: 50px;
     height: 80px;
@@ -176,29 +176,33 @@ h4{
     font-size: 45px;
 }
 .info{
-    text-align: center;
     color: white;
     background-color: rgb(185, 34, 34);
-    font-size: 35px;
+    font-size: 15px;
     font-style: oblique ,bold;
     display: flex;
     align-items: center;
     padding-right: 10px;
     padding-left: 5px;
-    border-radius: 10px 0px 0px 10px;;
+    border-radius: 10px 0px 0px 10px;
+    justify-content: center;
     
 }
 .dates{
     text-align: center;
-    color: black;
-    background-color: rgb(204, 224, 18);
-    font-size: 35px;
+    color: white;
+    background-color: rgb(28, 28, 182);
+    font-size: 15px;
     font-style: oblique, bold;
     display: flex;
     align-items: center;
     border-radius: 10px;
-
-    
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+}
+.stage{
+    padding-left: 10px;
 }
 
 
@@ -274,16 +278,20 @@ h4{
         font-size: 20px;
         font-style: bold;
     }
-    .info{
-        font-size: 10px;
-    }
+    
     .dates{
         font-size: 10px;
+        width: 100%;
+        flex-direction: row;
         
+    }
+    .info{
+        flex-direction: row;
+        font-size: 10px;
     }
     .menu_flottant{
         padding-left: 15px;
         padding-bottom: 15px;
-    }
+    } 
 }
     
