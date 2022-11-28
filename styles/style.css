@@ -52,6 +52,9 @@ h3{
     
 }
 
+.card1{
+    margin-top: 40px;
+}
 .case1{
     background-color: #96527A;
     color: white ;
@@ -147,7 +150,7 @@ h3{
 }
 
 footer{
-    margin-top: 35px;
+    margin-top: 100px;
     background-color: #384454;
     border-top: 8px solid #F27C00;
 }
@@ -221,7 +224,11 @@ h4{
     .boutons{
         align-items: flex-end;
         padding-top: 15px;
+        padding-left: 2px;
         
+    }
+    .bouton2{
+        padding-left: 5px;
     }
 }
 @media (max-width: 768px) {
@@ -297,18 +304,21 @@ h4{
     
     .dates{
         font-size: 10px;
-        width: 100%;
-        flex-direction: row;
+        margin: auto;
+        width: 350px;
         
     }
     .info{
-        flex-direction: row;
+
         font-size: 10px;
     }
     .menu_flottant{
         padding-left: 15px;
         padding-bottom: 15px;
     } 
+    .boutons{
+        justify-content: end;
+    }
 }
 @media (max-width: 600px){
     img{
