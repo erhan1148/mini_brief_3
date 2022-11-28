@@ -205,8 +205,26 @@ h4{
     padding-left: 10px;
 }
 
-
-@media (max-width: 420px) {
+@media (max-width: 1000px){
+    .legende1{
+        font-size: 18px;
+    }
+    .legende2{
+        font-size: 18px;
+    }
+    .legende3{
+        font-size: 18px;
+    }
+    .legende4{
+        font-size: 18px;
+    }
+    .boutons{
+        align-items: flex-end;
+        padding-top: 15px;
+        
+    }
+}
+@media (max-width: 768px) {
     img{
         width: 100%;
     }
