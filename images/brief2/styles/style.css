@@ -1,0 +1,437 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+}
+main{
+    background-color: rgb(230, 224, 224);
+
+}
+header{
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+}
+.entete{
+    font-size: 15px;
+    justify-content: end;
+    display: flex;
+    background-color: black;
+    list-style-type: none;
+    flex-direction: row;
+}
+.entete li{
+    padding: 10px; 
+   
+}
+
+.entete li a{
+    display: flex;                
+    min-width: 50px;               
+    margin: 8px;                                     
+    color: white;                  
+    text-decoration: none; 
+   
+    
+}
+
+.petitlogo img{
+    width: 300px;
+    position: absolute;
+    top: 0px; left: 40px;
+    display: flex;
+    transform : rotate(-5deg);
+    border-radius: 8px;
+}
+.logo{
+ 
+    height: 300px;
+    display: flex;
+    z-index: 1;
+
+    
+}
+h3{
+    z-index: 2;
+    position: relative;
+    bottom: -150px; left: 400px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+}
+
+
+.menu {
+    display: flex;                               
+    background-color: rgb(78, 78, 78);
+    margin-top: 0;
+}
+.menu li {
+    list-style-type: none ;  
+    margin-left: auto;
+    margin-right: auto;  
+}
+.menu li a {
+    display:block;                              
+    margin: 15px;               
+    padding: 25px;            
+    text-align: center;                 
+    color: white;                  
+    text-decoration: none;            
+}
+.menu li a:hover {
+    background-color: black;
+
+}
+.login a:hover{
+    color: blue;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 21px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+.card-columns{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap: 20px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.cardcepes {
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
+    background-color: white;
+    text-align: center;
+}
+.cardcepes-title{
+    color: gray;
+}
+
+.cardcepes img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.cardgirolles {
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
+    background-color: white;
+    text-align: center;
+}
+.cardgirolles-title{
+    color: gray;
+}
+
+.cardgirolles img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.cardtrompettes{
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
+    background-color: white;
+    text-align: center;
+}
+.cardtrompettes-title{
+    color: gray;
+}
+
+.cardtrompettes img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.cardmousserons {
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
+    background-color: white;
+    text-align: center;
+}
+.cardmousserons-title{
+    color: gray;
+}
+
+.cardmousserons img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.cardchanterelles{
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
+    background-color: white;
+    text-align: center;
+}
+.cardchanterelles-title{
+    color: gray;
+}
+
+.cardchanterelles img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.cardshiitakes {
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
+    background-color: white;
+    text-align: center;
+}
+.cardshiitakes-title{
+    color: gray;
+}
+
+.cardshiitakes img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.cardpleurotes{
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
+    background-color: white;
+    text-align: center;
+}
+.cardpleurotes-title{
+    color: gray;
+}
+
+.cardpleurotes img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.cardmorilles {
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
+    background-color: white;
+    text-align: center;
+}
+.cardmorilles-title{
+    color: gray;
+}
+
+.cardmorilles img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+h2 a{
+    text-align: right;
+    font-size: 15px;
+    color: grey;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-decoration:none;
+    display: block;
+    
+}
+.menufooter {
+    display: flex;                               
+    background-color: rgb(63, 63, 63);
+    justify-content: center;
+}
+.menufooter li {
+    list-style-type: none ;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+}
+.menufooter li a {
+    display:block;                
+    min-width: 120px;               
+    margin: 25px;                                           
+    color: white;                  
+    text-decoration: none;  
+    justify-content: center;              
+}
+.infos li a{
+    font-size: small;
+    font-style: italic;
+    color: rgb(190, 190, 190);
+    
+}
+
+.block_newsletter {
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-left: 5px;
+
+}
+.titre1 p{
+    display: block;
+    font-size: 25px;
+}
+.email input{
+    display: block; 
+    line-height: 29px;
+    position: relative;
+    top: -28px; left: 400px;
+}
+
+
+.bouton a{
+    width: 177px;
+    line-height: 35px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    background-color: green;
+    position: relative;
+    top: -80px; left: 600px;
+}
+.bouton a:hover{
+    background-color:rgb(71, 187, 255) ;
+}
+.titre2 p{
+    position: relative;
+    top: -80px; left: 400px;
+    font-size: 12px;
+}
+.titre3 p{
+    position: relative;
+    top: -80px; left: 400px;
+    font-size: 12px;
+}
+.logo2{
+    margin-top: 8px;
+    text-align: right;
+}
+.fil a{
+    list-style: none;
+    text-decoration: none;
+}
+.accueil {
+    color: black;
+}
+h5{
+    font-size: 25px;
+    color: gray;
+}
+
+.connexion{
+    display: grid;
+    grid-template-rows: 255px 1fr;
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-left: 5px;
+
+}
+.mdp input{
+    display: block; 
+    line-height: 29px;
+    position: relative;
+    top: -28px; left: 400px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 10px;
+}
+.mail input{
+    display: block; 
+    line-height: 29px;
+    position: relative;
+    top: -28px; left: 400px;
+    background-color: rgb(199, 199, 199);
+}
+.connex a {
+    display:block;
+    width: 177px;
+    line-height: 35px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    background-color: blue;
+    position: relative;
+    top: 10px; 
+    margin: auto;
+}
+.connex a:hover {
+    background-color:rgb(71, 187, 255) ;
+}
+.titre5 p{
+    position: relative;
+    top: 25px; left: 200px;
+    font-size: 25px;
+}
+.titre6 p{
+    position: relative;
+    top: -140px; left: 200px;
+    font-size: 25px;
+}
+.titre7 p a{
+    position: relative;
+    top: -130px; 
+    font-size: 12px;
+    color: blue;
+    text-align: center;
+    text-decoration:none;
+    display: block;
+}
+.titre8 p a{
+    position: relative;
+    top: -80px; 
+    font-size: 12px;
+    color: blue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.block_newsletter {
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-left: 5px;
+    margin-top: 35px;
+
+}
+.titre1 p{
+    display: block;
+    font-size: 25px;
+}
+.email input{
+    display: block; 
+    line-height: 29px;
+    position: relative;
+    top: -28px; left: 400px;
+}
+
+.bouton a {
+    display:block;
+    width: 177px;
+    line-height: 35px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    background-color: blue;
+    position: relative;
+    top: -80px; left: 600px;
+}
+.titre2 p{
+    position: relative;
+    top: -80px; left: 400px;
+    font-size: 12px;
+}
+.titre3 p{
+    position: relative;
+    top: -80px; left: 400px;
+    font-size: 12px;
+}
+@media (max-width : 768px){
+   
+}
