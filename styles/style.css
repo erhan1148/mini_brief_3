@@ -191,6 +191,16 @@ h3{
     justify-content: center;
     box-shadow: -13px 13px 1px 2px #F27C00;
 }
+.legende1, .legende2, .legende3, .legende3, .legende4{
+        animation-duration: 5.0s;
+        animation-name: clignoter;
+        animation-iteration-count: infinite;
+        transition: none;
+}
+@keyframes clignoter {
+       5%   { opacity:1; }
+       10%   {opacity:0; }
+}
 
 footer{
     margin-top: 100px;
