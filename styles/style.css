@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding: 0;
-    background-color: #E8ECEB ;
+    background-color: #D4D3DC ;
 }
 header{
     background-color: #2D3E4E;
@@ -13,11 +13,11 @@ header{
     
 }
 .imageh{
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     max-width: 100%;
     max-height: 100%;
-    border-radius: 0% 0% 20% 20%;
+   
 }
 
 h1{
@@ -70,14 +70,16 @@ h3{
     font-style: bold;
     font-family: 'Ink Free';
 }
-.bouton1{
+.bouton1{ 
     padding-left: 100px;
     display: flex;
     font-size: 50px;
- 
 }
 .bouton1 a :hover{
     color: red;
+}
+.bi{
+    color: #2D3E4E;
 }
 .bouton2{
     padding-left: 25px;
@@ -95,11 +97,9 @@ h3{
 .bouton3 a :hover{
     color: red;
 }
-.card1{
-    margin-top: 40px;
-}
+
 .case1{
-    background-color: #96527A;
+    background-color: #7A90A4;
     color: white ;
     margin-top: 50px;
     text-align: justify;
@@ -107,8 +107,9 @@ h3{
     padding-bottom: 25px;
     display: flex;
 }
+
 .legende1{
-    background-color: #CD6889;
+    background-color: #709CA7;
     color: white;
     font-style: italic;
     font-size: 25px;
@@ -117,13 +118,10 @@ h3{
     height: 120px;
     display: flex;
     justify-content: center;
-    box-shadow: 12px 12px 2px 1px #F27C00;
-
-
-    
+    box-shadow: 12px 12px 2px 1px #F27C00;    
 }
 .case2{
-    background-color:  #B67332;
+    background-color: #B1A09B;
     color: black ;
     margin-top: 50px;
     text-align: justify;
@@ -133,7 +131,7 @@ h3{
 }
 
 .legende2 {
-    background-color: #D6955B ; 
+    background-color: #C49D83 ; 
     color: black;
     font-style: italic;
     font-size: 25px;
@@ -157,7 +155,7 @@ h3{
 }
 
 .legende3{
-    background-color: #B8CBD0;
+    background-color: #709CA7;
     color: white;
     font-style: italic;
     font-size: 30px;
@@ -180,7 +178,7 @@ h3{
     display: flex;
 }
 .legende4{
-    background-color: #E8D5CC;
+    background-color: #C49D83;
     color: black;
     font-style: italic;
     font-size: 30px;
@@ -192,7 +190,7 @@ h3{
     box-shadow: -13px 13px 1px 2px #F27C00;
 }
 .legende1, .legende2, .legende3, .legende3, .legende4{
-        animation-duration: 5.0s;
+        animation-duration: 5.5s;
         animation-name: clignoter;
         animation-iteration-count: infinite;
         transition: none;
@@ -234,43 +232,22 @@ h4{
     margin-top: 15px;
 }
 .liste button{
-    color: blue;
+    color: black;
     background-color: aqua;
+    font-family: cursive;
 }
 .liste button:hover{
-    color: black;
+    color: blue;
     background-color: whitesmoke;
 }
-.info{
-    color: white;
-    background-color: rgb(185, 34, 34);
-    font-size: 15px;
-    font-style: oblique ,bold;
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
-    padding-left: 5px;
-    border-radius: 10px 0px 0px 10px;
-    justify-content: center;
-    
-}
-.dates{
-    text-align: center;
-    color: white;
-    background-color: rgb(28, 28, 182);
-    font-size: 15px;
-    font-style: oblique, bold;
-    display: flex;
-    align-items: center;
+
+.scrolling-text {
+    background: linear-gradient(to bottom right, red, blue);
     border-radius: 10px;
-    width: 500px;
-    margin: auto;
-    margin-top: 10px;
-}
-.stage{
-    padding-left: 10px;
-    padding-right: 5px;
-}
+    height: 50px;
+    padding: 10px;
+  }
+  
 .carousel{
     width: 600px;
     display: flex;
@@ -291,6 +268,28 @@ h5{
 .carousel-indicators{
     color: red;
 }
+
+.scrolling-text {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scrolling-text .info, .stage {
+    animation: scroll-left 8s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+
 
 
 @media (max-width: 1000px){
@@ -313,9 +312,11 @@ h5{
         
     }
     .bouton2{
-        padding-left: 5px;
+        padding-left: 2px;
     }
-    
+    .bouton3{
+        padding-left: 2px;
+    }
 }
 @media (max-width: 768px) {
     
@@ -406,12 +407,18 @@ h5{
         justify-content: end;
     }
     .bouton2{
-        padding-left: 25px;
+        padding-left: 20px;
+    }
+    .bouton3{
+        padding-left: 20px;
     }
     .barre{
         font-size: 25px;
         position: relative;
         top: -6px;
+    }
+    .guillemet{
+        font-size: 20px;
     }
    
 }   
@@ -424,5 +431,8 @@ h5{
   }
   h5{
     font-size: 10px;
+ }
+ .guillemet{
+    font-size: 18px;
  }
 }
