@@ -2,6 +2,8 @@ body{
     margin:0;
     padding: 0;
     background-color: #D4D3DC ;
+    overflow-x: hidden;
+       
 }
 header{
     background-color: #2D3E4E;
@@ -118,7 +120,7 @@ h3{
     height: 120px;
     display: flex;
     justify-content: center;
-    box-shadow: 12px 12px 2px 1px #F27C00;    
+
 }
 .case2{
     background-color: #B1A09B;
@@ -140,7 +142,6 @@ h3{
     height: 100px;
     display: flex;
     align-items: center;
-    box-shadow: -13px 13px 1px 2px #F27C00;
 }
 
 
@@ -164,7 +165,7 @@ h3{
     height: 100px;
     display: flex;
     justify-content: center;
-    box-shadow: 12px 12px 2px 1px #F27C00;
+
 }
 
 
@@ -187,7 +188,7 @@ h3{
     height: 80px;
     display: flex;
     justify-content: center;
-    box-shadow: -13px 13px 1px 2px #F27C00;
+  
 }
 .legende1, .legende2, .legende3, .legende3, .legende4{
         animation-duration: 5.5s;
@@ -269,27 +270,18 @@ h5{
     color: red;
 }
 
-.scrolling-text {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  
-  .scrolling-text .info, .stage {
-    animation: scroll-left 8s linear infinite;
-  }
-  
-  @keyframes scroll-left {
-    from {
-      transform: translateX(100%);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-  
+h6{
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+}
 
-
+a {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+  
 
 
 @media (max-width: 1000px){
