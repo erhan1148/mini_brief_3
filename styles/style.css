@@ -3,12 +3,27 @@ body{
     padding: 0;
     background-color: #D4D3DC ;
     overflow-x: hidden;
+    height: 100%;
        
 }
 header{
     background-color: #2D3E4E;
     border-bottom: 8px solid #F27C00;
 }
+
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+
+
 .imageheader{
     display: flex;
     justify-content: center;
