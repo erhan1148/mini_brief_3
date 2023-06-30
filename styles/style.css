@@ -1,9 +1,9 @@
 body{
     margin:0;
     padding: 0;
-    background-color: #D4D3DC ;
+    background-color: #afaeb8 ;
     overflow-x: hidden;
-    height: 100%;
+    min-height: 100vh;
        
 }
 header{
@@ -326,7 +326,9 @@ a {
     }
 }
 @media (max-width: 768px) {
-    
+    body {
+        overflow-x: hidden; /* Désactive le défilement horizontal */
+    }
     h1{
         text-align: center;
         font-size: 25px;
