@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding: 0;
-    background-color: white;
+    background-color: #afaeb8 ;
     overflow-x: hidden;
     min-height: 100vh;
        
@@ -132,7 +132,7 @@ h3{
     font-size: 25px;
     align-items: center;
     margin-top: 50px;
-    height: 120px;
+    height: 150px;
     display: flex;
     justify-content: center;
 
@@ -154,7 +154,7 @@ h3{
     font-size: 25px;
     justify-content: center;
     margin-top: 50px;
-    height: 100px;
+    height: 125px;
     display: flex;
     align-items: center;
 }
@@ -177,7 +177,7 @@ h3{
     font-size: 30px;
     align-items: center;
     margin-top: 50px;
-    height: 100px;
+    height: 125px;
     display: flex;
     justify-content: center;
 
@@ -200,7 +200,7 @@ h3{
     font-size: 30px;
     align-items: center;
     margin-top: 50px;
-    height: 80px;
+    height: 85px;
     display: flex;
     justify-content: center;
   
